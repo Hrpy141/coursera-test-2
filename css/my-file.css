@@ -1,0 +1,21 @@
+body{
+    font-family:'Cairo', sans-serif;
+}
+@media (min-width:768px){
+    ul.navbar-nav{
+        display: none;
+    }
+}
+nav .navbar-toggler[aria-expanded="true"]:focus{
+box-shadow: none;
+}
+ul.navbar-nav{
+    background-color: rgb(0, 60, 255);
+    text-align: center;
+}
+section .container-fluid h3{
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
